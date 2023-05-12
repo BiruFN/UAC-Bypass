@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  dllmain.cpp
+C:\Users\BiruFN\Desktop\Projects\UAC\UAC\struct.h(49,1): warning C4267: '=': 'size_t' から 'int32_t' に変換しました。データが失われているかもしれません。
+  UAC.vcxproj -> C:\Users\BiruFN\Desktop\Projects\UAC\x64\Debug\UAC.dll
