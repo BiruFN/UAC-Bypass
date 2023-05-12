@@ -10,7 +10,7 @@ static VOID Main()
     FILE* file;
     freopen_s(&file, "CONOUT$", "w", stdout);
 
-    std::cout << "[=] UAC Bypass Made by BiruFN" << std::endl;
+    std::cout << "[=] Made by BiruFN" << std::endl;
 
     auto GetObjectFullNameAddress = Util::FindPattern(
         "\x40\x53\x48\x83\xEC\x20\x48\x8B\xC2\x48\x8B\xD9\x48\x85\xD2\x75\x43",
