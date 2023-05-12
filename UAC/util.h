@@ -3,7 +3,7 @@
 class Util
 {
 private:
-	static inline BOOL MaskCompare(PVOID buffer, LPCSTR pattern, LPCSTR mask)
+	static BOOL MaskCompare(PVOID buffer, LPCSTR pattern, LPCSTR mask)
 	{
 		for (auto value = reinterpret_cast<PBYTE>(buffer); *mask; ++pattern, ++mask, ++value)
 		{
@@ -15,7 +15,7 @@ private:
 	}
 
 public:
-	static inline PVOID FindPattern(LPCSTR pattern, LPCSTR mask)
+	static PVOID FindPattern(LPCSTR pattern, LPCSTR mask)
 	{
 		MODULEINFO info = { 0 };
 
