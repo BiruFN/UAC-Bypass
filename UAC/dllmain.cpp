@@ -7,8 +7,8 @@
 static VOID Main()
 {
     AllocConsole();
-	FILE* file;
-	freopen_s(&file, "CONOUT$", "w", stdout);
+    FILE* file;
+    freopen_s(&file, "CONOUT$", "w", stdout);
 
     std::cout << "[=] UAC Bypass Made by BiruFN" << std::endl;
 
